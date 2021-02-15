@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin-top: 50px;
+  margin: 0;
+  padding: 0;
+  background-color:#1b1b1b;
+  margin-bottom: 5%;
+  
+}
+#outerbox{
+	position:absolute;
+	overflow:hidden;
+ 
+}
+#silderbox{
+	position:relative;
+	width:2400px;
+	animation-name:Kent;
+	animation-duration:10s;
+	animation-itearation-count:infinite;
+	
+}
+#sliderbox img{
+	float:left;
+	
+}
+
+.img-container{
+	text-align: center;
+}
+
+ul li {
+ padding 5px 15px;
+ float: right;
+ width: 433px;
+ height: 40px;
+ background-color: #292929;
+ opacity: .9;
+ line-height: 40px;
+ text-align: center;
+ font-size: 16px;
+ text-decoration:none;
+ margin-top: 0px;
+ 
+}
+
+ul li a {
+ text-decoration: none;
+ color:	white;
+ display: block;
+}
+
+ul li a:hover {
+ background-color: #fff;
+ color:black;
+}
+
+ul li ul li{
+ display: none;
+}
+
+ul li:hover ul li {
+ display: block;
+}
+
+#slider{
+	overflow: hidden;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 15s slider infinite;
+}
+
+#slider figure img{
+	float: left;
+	width: 20%;
+
+}
+
+@keyframes slider{
+
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: 0%;
+	}
+	30%{
+		left: 0%;
+	}
+	40%{
+		left: -100%;
+	}
+	50%{
+		left: -100%;
+	}
+	60%{
+		left: -100%;
+	}
+	80%{
+		left: -100%;
+	}
+	100%{
+		left: 0%;
+	}
+}
+#section2 {
+  height: 650px;
+}
+
+.example_c {
+	color: #ffa31a !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #292929;
+	padding: 20px;
+	border: 1px solid #ffa31a; !important;
+	display: inline-block;
+	transition: all 0.4s ease 0s;
+	margin-top: 8%;
+}
+
+.example_c:hover {
+color: #ffffff !important;
+background: #ffa31a;
+border-color: #f6b93b !important;
+transition: all 0.4s ease 0s;
+}

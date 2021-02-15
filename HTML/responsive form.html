@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid black;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffa31a;
+  padding: 10px;
+  width: 50%;
+  
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.img-container{
+	text-align: center;
+}
+.example_c {
+	color: #ffa31a !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #292929;
+	padding: 20px;
+	border: 1px solid #ffa31a; !important;
+	display: inline-block;
+	transition: all 0.4s ease 0s;
+	margin-top: 60%;
+}
+
+.example_c:hover {
+color: #ffffff !important;
+background: #ffa31a;
+border-color: #f6b93b !important;
+transition: all 0.4s ease 0s;
+}
+#section2 {
+  height: 680px;
+}
+</style>
+
+
+</a>
+
+<body bgcolor="black">
+<center>
+<div class="img-container"><img src="yourorder.PNG" align="center"></div>
+<img src="action camera\Digital SLR Camera 2.4 HD SLR Digital Camera.jpg" alt="Cinque Terre" width="700" height="500" style="float:left;">
+<h1 style="color:#ffa31a;" >Digital SLR Camera 2.4 HD SLR Digital Camera</h1><br>
+<h1 style="color:#ffa31a; float:left; margin-left:3%;"><span>&#8369;</span>2043</h1><br><br><br><br><br><br>
+<p style="color:white; float:left; margin-left:3%;">Shipping Fee: min order of <span>&#8369;</span>500<br>
+
+<a href="#section2" class="example_c" style="color:white; float:left; margin-left:3%;"><font face = "Arial">Buy now</font></a>
+</center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center style="margin-top:1%;">
+<a href="actioncamera.html"><u style="font-size:40px; color: #ffa31a;">change order here!</u></a>
+</center>
+<div id="section2">
+<marquee = "scroll">
+<p style=" color: #ffa31a; margin-top:2%; font-size: 30px">PLEASE WRITE DOWN ALL YOUR INFORMATION BELOW</p>	
+</marquee>
+<div id="section2">
+<center>
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Complete Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Enter your Address..">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-25">
+      <label for="lname">Contact Number</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Enter your Contact Number">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+		<option value="usa">Philippines</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" value="Submit">
+ </div>
+  </form>
+</div>
+</center>
+  <hr style="margin-top:2%">
+  <p align="center" style="margin-top: 4%; color: white;">&copy; 2019 Me-make. All Rights Reserved</p>
+</body>
+</html>

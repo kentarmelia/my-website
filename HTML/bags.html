@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bags and Cases</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+   background-color:#1b1b1b;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+.sidenav a {
+  padding: 5px 5px 5px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 42px;
+  font-size: 27px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.img-container{
+	text-align: center;
+}
+.icon-bar {
+   background-color:#ffa31a; !important;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.example_c {
+	color: #ffa31a !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #292929;
+	padding: 15px;
+	border: 1px solid #ffa31a; !important;
+	display: inline-block;
+	transition: all 0.4s ease 0s;
+	margin-top: 7%;
+}
+
+.example_c:hover {
+color: #ffffff !important;
+background: #ffa31a;
+border-color: #f6b93b !important;
+transition: all 0.4s ease 0s;
+}
+div.gallery {
+  margin: 32px;
+  border: 1px solid #ffa31a;
+  float: right;
+  width: 250px;
+  margin-top:5%; 
+ }
+
+div.gallery:hover {
+ background: #ffa31a;	
+ border: 1px solid  #ffa31a;
+}
+
+div.gallery img {
+  width:250px;
+	height: 250px;
+}
+
+div.desc {
+color:white;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+}
+div.desc2 {
+ border: 1px solid #ffa31a;
+ background: #1b1b1b;
+ color:#ffa31a;
+  padding: 15px;
+  text-align: right;
+  position: relative;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><span style=" background-color: black !important; font-size:35px;cursor:pointer" onclick="openNav()" class="icon-bar" style="background-color: black !important;"><p>&#9776;</p></span></li>
+  <div class="img-container"><img src="logoly.PNG" align="center">
+</ul>
+<div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="Homepage.html" class="example_c"><font face = "Arial">HOME</font></a>
+	<hr>
+	<a href="mobile and accessories.html" class="example_c"><font size = "2px" face = "Arial">Mobile and Accessories</font></a>
+	<a href="camera accessories.html" class="example_c" ><font size = "2px" face = "Arial">Camera Accessories</font></a>
+	<a href="CCTV.html" class="example_c"><font size = "2px" face = "Arial">CCTV / IP Camera</font></a>
+	<a href="actioncamera.html" class="example_c"><font size = "2px" face = "Arial">Action Camera</font></a>
+	<a href="digital.html" class="example_c"><font size = "2px" face = "Arial">Digital Camera</font></a>
+	<a href="Lightning.html" class="example_c"><font size = "2px" face = "Arial">Lightning and Studio Equipment</font></a>
+	<a href="drones.html" class="example_c"><font size = "2px" face = "Arial">Drones</font></a>
+	<a href="tripods.html" class="example_c"><font size = "2px" face = "Arial">Tripods/Monopods</font></a>
+	<a href="bags.html" class="example_c"><font size = "2px" face = "Arial">Bags and Cases</font></a>
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "253px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<h1 align="center" style="color:#ffa31a; font-size:80px;">Bags and Cases</h1>
+
+   <a href="linkbag\bag1.html"><div class="gallery">
+    <img src="linkbag\bags and cases\Camera Backpack PE Padded for Photographer.jpg" width="600" height="400">
+  <div class="desc">Camera Backpack PE Padded for Photographer<br></div>
+  <div class="desc2">₱468</div>
+</div></a>
+
+<a href="linkbag\bag2.html"><div class="gallery">
+  <img src="linkbag\bags and cases\Camera Hand Bag for DSLR.jpg" width="600" height="400">
+ <div class="desc">Camera Hand Bag for DSLR</br></div>
+  <div class="desc2">₱432 - ₱621</div>
+</div></a>
+
+<a href="linkbag\bag3.html"><div class="gallery">
+    <img src="linkbag\bags and cases\Camera Protective sleeve Waterproof soft pack.jpg" alt="Northern Lights" width="600" height="400">
+  <div class="desc">Camera Protective sleeve Waterproof soft pack</br></div>
+  <div class="desc2">₱657</div>
+</div></a>
+
+<a href="linkbag\bag4.html"><div class="gallery">
+    <img src="linkbag\bags and cases\Camera Shoulder Bag Portable Fashion.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">Camera Shoulder Bag Portable Fashion</br></div>
+  <div class="desc2">₱331</div>
+</div></a>
+
+<br>
+</br>
+
+<a href="linkbag\bag5.html"><div class="gallery">
+    <img src="linkbag\bags and cases\Camera Shoulder Bag with Waterproof Rain Cov.jpg" alt="Mountains" width="600" height="400">
+  <div class="desc">Camera Shoulder Bag with Waterproof Rain Cov</br></div>
+  <div class="desc2">₱599</div>
+</div></a>
+
+<a href="linkbag\bag6.html"><div class="gallery">
+
+    <img src="linkbag\bags and cases\Double Dual Camera Shoulder Strap Quick Rapid Sling Camera.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">Double Dual Camera Shoulder Strap Sling Camera</br></div>
+  <div class="desc2">₱750</div>
+</div></a>
+
+<a href="linkbag\bag7.html"><div class="gallery">
+
+    <img src="linkbag\bags and cases\DSLR Triangle Camera Case.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">DSLR Triangle Camera Case</br></div>
+  <div class="desc2">₱799 - ₱999</div>
+</div></a>
+
+<a href="linkbag\bag8.html"><div class="gallery">
+  
+    <img src="linkbag\bags and cases\Nikon Canon Portable Waterproof Protective Bags.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">Nikon Canon Portable Waterproof Protective Bags</br></div>
+  <div class="desc2">₱800</div>
+</div></a>
+</div>
+
+<a href="linkbag\bag9.html"><div class="gallery">
+
+    <img src="linkbag\bags and cases\Professional Backpack Photography Package.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">Professional Backpack Photography Package</br></div>
+  <div class="desc2">₱999</div>
+</div></a>
+
+<a href="linkbag\bag10.html"><div class="gallery">
+ 
+    <img src="linkbag\bags and cases\Snapshot Small Camera Bag.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">Snapshot Small Camera Bag</br></div>
+  <div class="desc2">₱450</div>
+</div></a>
+
+
+
+</body>
+</html>
